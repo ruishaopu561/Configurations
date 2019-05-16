@@ -1,4 +1,4 @@
-# Django
+# Django on Ubuntu18.04
 ## Install Python and PIP
 Most of the latest operating systems come with default Python 3 installed. But if your system doesn’t have Python installed, Execute the below commands to install it. Also, install pip on your system.
 ```
