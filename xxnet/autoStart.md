@@ -32,3 +32,6 @@ sudo update-rc.d  test.sh  defaults  90
 ```
 sudo update-rc.d -f test.sh remove
 ```
+
+## Reference
+- [ubuntu设置开机自启动脚本](https://www.cnblogs.com/21207-iHome/p/7472316.html)
