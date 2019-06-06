@@ -1,10 +1,6 @@
 # PyTorch
 ## NVIDIA
-用
-```
-lspci | grep -i nvidia
-```
-查看GPU版本信息
+用```lspci | grep -i nvidia``查看GPU版本信息
 ## Anaconda3
 [官网](https://www.anaconda.com/)下载```python3.7```版本，下载后按要求安装。
 
@@ -12,21 +8,13 @@ lspci | grep -i nvidia
 ```
 export PATH="/home/rsp/anaconda3/bin:$PATH"
 ```
-然后用指令
+然后
 ```
 source ~/.zshrc
 ```
 再次激活，就可以了。
 ## PyTorch
-[PyTorch官网](https://pytorch.org/get-started/locally/)
-根据自己的电脑配置选择安装命令  
-若没有下面的错误，则输入以下指令验证安装
-```
-python
-import torch
-```
-若也不报错，那就安装正确了
-### 错误: Missing dependencies for SOCKS support
+### Missing dependencies for SOCKS support
 在PyCharm安装python模块(不仅仅是安装模块)出现如下错误，终端使用pip3命令也是同样的错误。这是因为本地设置了socks代理，但是python不支持socks代理，就会报错。
 ```
 Could not install packages due to an EnvironmentError: Missing dependencies for SOCKS support.
